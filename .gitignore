@@ -1,0 +1,13 @@
+build/
+out/
+__pycache__/
+*.pyc
+*.img
+*.bin
+!prebuilt/*.bin
+vendor/kshim/lib/CrDK/
+vendor/kshim/lib/picolibc/
+vendor/kshim/third_party/lvgl/
+
+# Local test photos
+Screenshot_*.jpg

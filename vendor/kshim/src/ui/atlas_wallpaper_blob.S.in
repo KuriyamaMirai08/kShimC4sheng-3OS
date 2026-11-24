@@ -1,0 +1,9 @@
+/* Embedded Atlas wallpaper JPEG blob. */
+.section .rodata.kshim_atlas_wallpaper, "a"
+.balign 16
+.global kshim_atlas_wallpaper_blob
+.global kshim_atlas_wallpaper_blob_end
+kshim_atlas_wallpaper_blob:
+.incbin "@KSHIM_ATLAS_WALLPAPER_BLOB@"
+kshim_atlas_wallpaper_blob_end:
+.section .note.GNU-stack, "", %progbits
